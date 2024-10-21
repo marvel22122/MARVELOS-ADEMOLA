@@ -1,0 +1,148 @@
+:root {
+  --favorblue: #431ac5;
+  --promisered: #65ac56;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 30px;
+}
+
+.canny {
+  width: 300px;
+  height: 300px;
+  background-color: var(--promisered);
+}
+
+.canny p {
+  color: var(--favorblue);
+}
+
+.column {
+  border: dashed;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  border: dashed red;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.row1{
+  border: dashed;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:last baseline;
+  gap: 150px;
+}
+.h1 {
+  border: dashed red;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  column-gap: 10px;
+}
+
+.row2{
+  border: dashed;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: last baseline;
+  align-items:center;
+  gap: 150px;
+}
+
+.row3{
+  border: dashed;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:last baseline;
+  gap: 150px;
+}
+
+.row4{
+  border: dashed;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:last baseline;
+  gap: 150px;
+}
+
+.row5{
+  border: dashed;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: last baseline;
+  align-items:center;
+  gap: 150px;
+}
+.row6{
+  border: dashed;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:last baseline;
+  gap: 150px;  
+}
+
+.row7{
+  border: dashed;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: last baseline;
+  align-items:center;
+  gap: 150px;
+}
+
+.row8{ border: dashed;
+width: 300px;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:last baseline;
+gap: 150px;
+}
+
+.row9{
+  border: dashed;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: last baseline;
+  align-items:center;
+  gap: 150px;
+}

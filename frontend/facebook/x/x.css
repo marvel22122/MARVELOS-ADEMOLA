@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+}
+
+.box{
+    border: 10px solid gray;
+    padding: 40px;
+    width:400px;
+    margin: auto;
+    box-shadow: 5px 5px 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+button{
+    width: 200px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 100px;
+    border: none;
+    margin: 5px ;
+    cursor: pointer;
+    button:hover{
+        background-color:rgb(54, 54, 54);
+        color: aliceblue;
+    }
+input{
+    padding: 20px;
+    background: transparent;
+    border: 1px solid gray;
+    width: 50%;
+    border-radius: 5px;
+    color: black;
+    
+}
+.forgetten_btn{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: 2px solid white;
+}
